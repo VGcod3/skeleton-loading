@@ -8,7 +8,7 @@ elements.forEach(async el => {
   try {
     await delay(5000)
     const img = document.createElement('img')
-    img.setAttribute('src', "logo.png")
+    img.setAttribute('src', "https://static.juev.org/2020/08/github-mark.png")
     el.querySelector('.img').append(img);
 
     const text = el.querySelector('.text');
