@@ -46,15 +46,15 @@ img {
 }
 
 .skeleton {
-  animation: skeleton-loading 1s linear infinite alternate;
+  animation: skeleton-loading 1.5s linear infinite alternate;
 }
 
 @keyframes skeleton-loading {
   0% {
-    background-color: hsl(200, 20%, 70%);
+    background-color: hsl(200, 20%, 80%);
   }
 
   100% {
-    border-color: hsl(200, 20%, 95%);
+    border-color: hsl(200, 20%, 90%);
   }
 }
